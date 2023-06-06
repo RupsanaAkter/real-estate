@@ -21,6 +21,9 @@ import t3 from '../assets/images/team-3.jpg'
 import t4 from '../assets/images/team-4.jpg'
 import t5 from '../assets/images/team-5.jpg'
 import t6 from '../assets/images/team-5.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrophy,faBriefcase, faLightbulb, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 export const nav = [
     {
       text: "home",
@@ -134,22 +137,23 @@ export const nav = [
   ]
   export const awards = [
     {
-      icon: <i class='fa-solid fa-trophy'></i>,
+      icon: <i class='fa-solid fa-trophy'> <FontAwesomeIcon icon={faTrophy} /></i>,
       num: "32 M	",
       name: "Blue Burmin Award",
     },
     {
-      icon: <i class='fa-solid fa-briefcase'></i>,
+      icon: <i class='fa-solid fa-briefcase'><FontAwesomeIcon icon={faBriefcase} /></i>,
       num: "43 M",
       name: "Mimo X11 Award",
     },
     {
-      icon: <i class='fa-solid fa-lightbulb'></i>,
+      icon: <i class='fa-solid fa-lightbulb'> <FontAwesomeIcon icon={faLightbulb} /></i>,
       num: "51 M",
       name: "Australian UGC Award",
     },
     {
-      icon: <i class='fa-solid fa-heart'></i>,
+      icon: <i class='fa-solid fa-heart'><FontAwesomeIcon icon={faHeart} /></i>,
+      
       num: "42 M",
       name: "IITCA Green Award",
     },
@@ -210,42 +214,42 @@ export const nav = [
       cover: t1,
       address: "Liverpool, Canada",
       name: "Sargam S. Singh",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
     {
       list: "70",
       cover: t2,
       address: "Montreal, Canada",
       name: "Harijeet M. Siller",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
     {
       list: "80",
       cover: t3,
       address: "Denever, USA",
       name: "Anna K. Young",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
     {
       list: "51",
       cover: t4,
       address: "2272 Briarwood Drive",
       name: "Michael P. Grimaldo",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
     {
       list: "42",
       cover: t5,
       address: "2272 Briarwood Drive",
       name: "Michael P. Grimaldo",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
     {
       list: "38",
       cover: t6,
       address: "Montreal, USA",
       name: "Adam K. Jollio",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+      // icon: [<i class='fa-brands fa-facebook-f'><FontAwesomeIcon icon={faFacebookF} /></i>, <i class='fa-brands fa-linkedin'><FontAwesomeIcon icon={faLinkedin} /></i>, <i class='fa-brands fa-twitter'><FontAwesomeIcon icon={faTwitter} /></i>, <i class='fa-brands fa-instagram'> <FontAwesomeIcon icon={faInstagram} /></i>],
     },
   ]
   export const price = [

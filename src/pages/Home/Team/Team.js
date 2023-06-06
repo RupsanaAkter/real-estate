@@ -1,6 +1,10 @@
 import React from 'react';
 import { team } from '../../../Data/data';
 import Heading from '../../Shared/Heading/Heading';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLocationDot } from '@fortawesome/free-regular-svg-icons';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import './Team.css'
 const Team = () => {
     return (
@@ -16,24 +20,24 @@ const Team = () => {
                 <div className='details'>
                   <div className='img'>
                     <img src={val.cover} alt='' />
-                    <i className='fa-solid fa-circle-check'></i>
+                    <i className='fa-solid fa-circle-check'><FontAwesomeIcon icon={faCircleCheck} /></i>
                   </div>
-                  <i className='fa fa-location-dot'></i>
+                  {/* <i className='fa fa-location-dot'><FontAwesomeIcon icon={faLocationDot} /></i> */}
                   <label>{val.address}</label>
                   <h4>{val.name}</h4>
 
-                  <ul>
+                  {/* <ul>
                     {val.icon.map((icon, index) => (
                       <li key={index}>{icon}</li>
                     ))}
-                  </ul>
+                  </ul> */}
                   <div className='button flex'>
                     <button>
-                      <i className='fa fa-envelope'></i>
+                      <i className='fa fa-envelope'> <FontAwesomeIcon icon={faEnvelope} /></i>
                       Message
                     </button>
                     <button className='btn4'>
-                      <i className='fa fa-phone-alt'></i>
+                      <i className='fa fa-phone-alt'><FontAwesomeIcon icon={faPhoneAlt} /></i>
                     </button>
                   </div>
                 </div>
