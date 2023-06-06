@@ -1,9 +1,15 @@
 import React from 'react';
 
-const Back = () => {
+const Back = ({ name, title, cover }) => {
     return (
         <div>
-            <h1>This is Back</h1>
+            <div className='back'>
+        <div className='container'>
+          <span>{name}</span>
+          <h1>{title}</h1>
+        </div>
+        <img src={cover} alt='' />
+      </div>
         </div>
     );
 };
