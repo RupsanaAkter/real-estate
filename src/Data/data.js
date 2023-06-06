@@ -1,3 +1,26 @@
+import h1 from "../assets/images/h1.png"
+import h2 from "../assets/images/h2.png"
+import h3 from "../assets/images/h3.png"
+import h4 from "../assets/images/h4.png"
+import h6 from "../assets/images/h6.png"
+import p1 from "../assets/images/p-1 (1).png"
+import p2 from "../assets/images/p-2 (1).png"
+import p7 from "../assets/images/p-7 (1).png"
+import p4 from "../assets/images/p-4 (1).png"
+import p5 from "../assets/images/p-5 (1).png"
+import p6 from "../assets/images/p-6 (1).png"
+import c1 from '../assets/images/city-1.png'
+import c2 from '../assets/images/city-2.png'
+import c3 from '../assets/images/city-3.png'
+import c4 from '../assets/images/city-4.png'
+import c5 from '../assets/images/city-5.png'
+import c6 from '../assets/images/city-6.png'
+import t1 from '../assets/images/team-1.jpg'
+import t2 from '../assets/images/team-2.jpg'
+import t3 from '../assets/images/team-3.jpg'
+import t4 from '../assets/images/team-4.jpg'
+import t5 from '../assets/images/team-5.jpg'
+import t6 from '../assets/images/team-5.jpg'
 export const nav = [
     {
       text: "home",
@@ -24,29 +47,31 @@ export const nav = [
       path: "/contact",
     },
   ]
+
+ 
   export const featured = [
     {
-      cover: "../assets/images/h1.png",
+      cover: h1,
       name: "Family House",
       total: "122 Property",
     },
     {
-      cover: "../assets/images/h2.png",
+      cover: h2,
       name: "House & Villa",
       total: "155 Property",
     },
     {
-      cover: "../assets/images/h3.png",
+      cover: h3,
       name: "Apartment",
       total: "300 Property",
     },
     {
-      cover: "../assets/images/h4.png",
+      cover: h4,
       name: "Office & Studio",
       total: "80 Property",
     },
     {
-      cover: "../assets/images/h6.png",
+      cover: h6,
       name: "Villa & Condo",
       total: "80 Property",
     },
@@ -54,7 +79,7 @@ export const nav = [
   export const list = [
     {
       id: 1,
-      cover: "../../public/images/list/p-1 (1).png",
+      cover: p1,
       name: "Red Carpet Real Estate",
       location: "210 Zirak Road, Canada",
       category: "For Rent",
@@ -63,7 +88,7 @@ export const nav = [
     },
     {
       id: 2,
-      cover: "../images/list/p-2.png",
+      cover: p2,
       name: "Fairmount Properties",
       location: "5698 Zirak Road, NewYork",
       category: "For Sale",
@@ -72,7 +97,7 @@ export const nav = [
     },
     {
       id: 3,
-      cover: "../images/list/p-7.png",
+      cover: p7,
       name: "The Real Estate Corner",
       location: "5624 Mooker Market, USA",
       category: "For Rent",
@@ -81,7 +106,7 @@ export const nav = [
     },
     {
       id: 4,
-      cover: "../images/list/p-4.png",
+      cover: p4,
       name: "Herringbone Realty",
       location: "5621 Liverpool, London",
       category: "For Sale",
@@ -90,7 +115,7 @@ export const nav = [
     },
     {
       id: 5,
-      cover: "../images/list/p-5.png",
+      cover: p5,
       name: "Brick Lane Realty",
       location: "210 Montreal Road, Canada",
       category: "For Rent",
@@ -99,7 +124,7 @@ export const nav = [
     },
     {
       id: 6,
-      cover: "../images/list/p-6.png",
+      cover: p6,
       name: "Banyon Tree Realty",
       location: "210 Zirak Road, Canada",
       category: "For Sale",
@@ -136,7 +161,7 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: "10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-1.png",
+      cover: c1,
     },
     {
       id: 2,
@@ -144,7 +169,7 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: "10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-2.png",
+      cover: c2,
     },
     {
       id: 3,
@@ -152,7 +177,7 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: " 10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-3.png",
+      cover: c3,
     },
     {
       id: 4,
@@ -160,7 +185,7 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: " 10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-4.png",
+      cover: c4,
     },
     {
       id: 5,
@@ -168,7 +193,7 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: " 10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-5.png",
+      cover: c5,
     },
     {
       id: 6,
@@ -176,48 +201,48 @@ export const nav = [
       Villas: "12 Villas",
       Apartments: " 10 Apartments",
       Offices: "07 Offices",
-      cover: "./images/location/city-6.png",
+      cover:c6,
     },
   ]
   export const team = [
     {
       list: "50",
-      cover: "../images/customer/team-1.jpg",
+      cover: t1,
       address: "Liverpool, Canada",
       name: "Sargam S. Singh",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "70",
-      cover: "../images/customer/team-2.jpg",
+      cover: t2,
       address: "Montreal, Canada",
       name: "Harijeet M. Siller",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "80",
-      cover: "../images/customer/team-3.jpg",
+      cover: t3,
       address: "Denever, USA",
       name: "Anna K. Young",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "51",
-      cover: "../images/customer/team-4.jpg",
+      cover: t4,
       address: "2272 Briarwood Drive",
       name: "Michael P. Grimaldo",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "42",
-      cover: "../images/customer/team-5.jpg",
+      cover: t5,
       address: "2272 Briarwood Drive",
       name: "Michael P. Grimaldo",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "38",
-      cover: "../images/customer/team-5.jpg",
+      cover: t6,
       address: "Montreal, USA",
       name: "Adam K. Jollio",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],

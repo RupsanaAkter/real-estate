@@ -1,6 +1,8 @@
 import React from 'react';
 import './Hero.css'
 import Heading from '../../Shared/Heading/Heading';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Hero = () => {
     return (
         <section className='hero'>
@@ -24,7 +26,7 @@ const Hero = () => {
               <h4>Advance Filter</h4>
             </div>
             <button className='btn1'>
-              <i className='fa fa-search'></i>
+              <i className='fa fa-search'> <FontAwesomeIcon icon={faSearch} /></i>
             </button>
           </form>
         </div>

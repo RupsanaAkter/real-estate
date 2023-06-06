@@ -5,6 +5,7 @@ import Recent from '../Recent/Recent';
 import Award from '../Award/Award';
 import Location from '../Location/Location';
 import Team from '../Team/Team';
+import Price from '../Price/Price';
 
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
         <Award></Award>
         <Location></Location>
         <Team></Team>
-        {/* <Team />
-        <Price />  */}
+        <Price></Price>
+        
       </>
     );
 };
