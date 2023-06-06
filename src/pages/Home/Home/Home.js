@@ -1,10 +1,20 @@
 import React from 'react';
+import Hero from '../Hero/Hero';
+import Featured from '../Featured/Featured';
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is Home</h1>
-        </div>
+        <>
+        <Hero></Hero>
+        <Featured></Featured>
+        {/* <Hero />
+        <Featured />
+        <Recent />
+        <Awards />
+        <Location />
+        <Team />
+        <Price /> */}
+      </>
     );
 };
 
