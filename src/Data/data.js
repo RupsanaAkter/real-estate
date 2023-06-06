@@ -26,27 +26,27 @@ export const nav = [
   ]
   export const featured = [
     {
-      cover: "../images/hero/h1.png",
+      cover: "../assets/images/h1.png",
       name: "Family House",
       total: "122 Property",
     },
     {
-      cover: "../images/hero/h2.png",
+      cover: "../assets/images/h2.png",
       name: "House & Villa",
       total: "155 Property",
     },
     {
-      cover: "../images/hero/h3.png",
+      cover: "../assets/images/h3.png",
       name: "Apartment",
       total: "300 Property",
     },
     {
-      cover: "../images/hero/h4.png",
+      cover: "../assets/images/h4.png",
       name: "Office & Studio",
       total: "80 Property",
     },
     {
-      cover: "../images/hero/h6.png",
+      cover: "../assets/images/h6.png",
       name: "Villa & Condo",
       total: "80 Property",
     },
@@ -54,7 +54,7 @@ export const nav = [
   export const list = [
     {
       id: 1,
-      cover: "../images/list/p-1.png",
+      cover: "../../public/images/list/p-1 (1).png",
       name: "Red Carpet Real Estate",
       location: "210 Zirak Road, Canada",
       category: "For Rent",
