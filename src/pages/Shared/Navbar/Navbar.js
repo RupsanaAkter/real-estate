@@ -4,13 +4,14 @@ import './Navbar.css'
 import { nav } from '../../../Data/data';
 import banner from '../../../assets/images/logo.png' 
 const Navbar = () => {
-    const [navList, setNavList] = useState(false)
+  
+  const [navList, setNavList] = useState(false)
     return (
-        <div>
-           <header>
+      <>
+      <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src={banner}alt='' />
+            <img src={banner} alt='' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -35,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-        </div>
+    </>
     );
 };
 
